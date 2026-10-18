@@ -1,0 +1,10 @@
+==============================================================================
+CRAFTIFAI FIRMGEN TRACEABILITY REPORT - VERSION v0.4.1
+PROJECT: SMART EXAM INTEGRITY NODE
+==============================================================================
+[REQ-01] The system shall initialize the ESP32 microcontroller environment.
+         -> STATUS: PASSED (Verified via mock main.c entry block)
+[REQ-02] The firmware shall emit continuous execution telemetry logs every 5 seconds.
+         -> STATUS: PASSED (Verified via loop configuration)
+[REQ-03] Telemetry outputs shall route data directly to the UART terminal monitor.
+         -> STATUS: PASSED (Verified via printf console logging)
